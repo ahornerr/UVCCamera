@@ -21,6 +21,9 @@
  *  may have a different license, see the respective files.
  */
 
+
+include ':libcommon'
+project(':libcommon').projectDir = new File('libcommon/common')
 include ':libuvccamera'
 include ':usbCameraCommon'
 include ':usbCameraTest'
@@ -32,3 +35,5 @@ include ':usbCameraTest5'
 include ':usbCameraTest6'
 include ':usbCameraTest7'
 include ':usbCameraTest8'
+
+
